@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import Travel from "./Travel";
+import Travels from "./Travels";
 
 class App extends Component {
   render() {
@@ -22,6 +23,9 @@ class App extends Component {
           photo="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
           destination="Paris"
         />
+        <div className="App-travels">
+          <Travels />
+        </div>
       </div>
     );
   }
