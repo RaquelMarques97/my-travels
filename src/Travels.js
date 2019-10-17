@@ -1,4 +1,5 @@
 import React from "react";
+import Travel from "./Travel";
 
 const travels = [
     {
@@ -33,9 +34,12 @@ const travels = [
 
 const Travels = () => (
     <div>
-        {travels.map(travels => (
-            <img src={travels.photo} />
+        {travels.map(viagem => (
+            <Travel trip={viagem} key={viagem.photo} />
         ))}
+
+
+
     </div>
 );
 export default Travels;

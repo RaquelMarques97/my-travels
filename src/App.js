@@ -11,18 +11,6 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Travels</h1>
         </header>
-        <Travel
-          country="Portugal"
-          distance="10km"
-          photo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2000px-Flag_of_Portugal.svg.png"
-          destination="Viseu"
-        />
-        <Travel
-          country="France"
-          distance="20km"
-          photo="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
-          destination="Paris"
-        />
         <div className="App-travels">
           <Travels />
         </div>
